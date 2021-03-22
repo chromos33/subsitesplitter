@@ -1,0 +1,9 @@
+---
+Name: SubsiteSplitterRoutes
+Only:
+  moduleexists: 'silverstripe/subsites'
+After: 'framework/routes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'SubsiteDeletion//$Action/$ID/$OtherID': "SubsiteDeletion"

@@ -1,0 +1,8 @@
+---
+Name: SubsiteSplitterConfig
+Only:
+  moduleexists: 'silverstripe/subsites'
+---
+SilverStripe\Subsites\Model\Subsite:
+  extensions:
+    - SubsiteDeleteExtension

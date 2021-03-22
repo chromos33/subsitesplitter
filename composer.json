@@ -1,0 +1,19 @@
+{
+    "name":"innomedia/subsitesplitter",
+    "description": "Silverstripe 4 Tasks to delete Subsites with Pages",
+    "license": "BSD-3-Clause",
+    "authors": [
+      {
+        "name":"Innomedia AG",
+        "email": "bk@innomedia.de"
+      }
+    ],
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+      "psr-4": {
+        "subsitesplitter\\": "src/"
+      }
+    }
+}
